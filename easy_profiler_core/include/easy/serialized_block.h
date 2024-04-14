@@ -91,7 +91,7 @@ namespace profiler {
 
     public:
 
-        CSwitchEvent() = default;
+        CSwitchEvent() = delete;
         CSwitchEvent(const CSwitchEvent&) = default;
         explicit CSwitchEvent(timestamp_t _begin_time, thread_id_t _tid) EASY_NOEXCEPT;
 
